@@ -6,3 +6,10 @@
 -----------------------------------------------------------------*/
 
 
+.titulo_seccion{
+	margin-left: -5%;
+    font-size: 2.6em;
+    color: #5fd0ba;
+    border-left: #5fd0ba 8px solid;
+    padding-left: 1%;
+}

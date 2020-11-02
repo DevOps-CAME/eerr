@@ -1,4 +1,6 @@
 # EERR - Reseña 2020
+Web en github: https://ggracis.github.io/eerr/
+
 - [1. Acerca del proyecto](#1-acerca-del-proyecto)
   - [1.1. Equipo](#11-equipo)
 - [Log/correcciones](#)

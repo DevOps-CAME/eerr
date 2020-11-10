@@ -16,3 +16,15 @@
 p{
     text-align: justify;
 }
+
+.prensa_grid{
+    background-color: #e8e8e8;
+    border-radius: 20px 20px 0px 0px;
+    border: 2px solid #ccc;
+    text-align: center;
+    max-height: 890px;
+}
+
+.portfolio-desc > span {
+    font-size: 13px;
+}

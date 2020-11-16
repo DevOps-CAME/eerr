@@ -12,7 +12,9 @@
     color: #5fd0ba;
     border-left: #5fd0ba 8px solid;
     padding-left: 1%;
+    text-transform: uppercase;
 }
+
 p{
     text-align: justify;
 }
@@ -27,4 +29,8 @@ p{
 
 .portfolio-desc > span {
     font-size: 13px;
+}
+
+.menu-link{
+    font-size: 1rem;
 }

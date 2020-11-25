@@ -7,12 +7,18 @@
 
 
 .titulo_seccion{
-	margin-left: -5%;
-    font-size: 2.6em;
+    font-size: 2.5em;
     color: #5fd0ba;
-    border-left: #5fd0ba 8px solid;
-    padding-left: 1%;
+    border-bottom: #5fd0ba 5px solid;
+    padding: 1% 5% 0.5% 1%;
     text-transform: uppercase;
+    float: right;
+    background-color: #5fd0ba38;
+}
+
+.prologo_editorial{
+    position: absolute;
+    right: 0;
 }
 
 p{
@@ -33,4 +39,30 @@ p{
 
 .menu-link{
     font-size: 1rem;
+}
+.entry-meta{
+    overflow: visible;
+    margin: 0px;
+}
+
+.entry-meta alignleft{
+    margin: 0px;
+}
+
+img.alignleft, div.alignleft {
+    margin: 5px 20px 5px 0;
+}
+.entry-image{
+    margin-bottom: 5px;
+}
+
+.epigrafe{
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #999;
+    margin: 5px 5px 15px 5px;
+    border-left: 2px solid #999;
+    padding-left: 5px;
+    display: inline-block;
 }

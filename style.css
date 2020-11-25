@@ -7479,7 +7479,7 @@ body:not(.device-touch) .entry-link {
 	}
 
 	.post-timeline .entry-timeline {
-		display: none;
+		display: block;
 		position: absolute;
 		border: 2px solid #CCC;
 		background-color: #FFF;

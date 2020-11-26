@@ -66,3 +66,29 @@ img.alignleft, div.alignleft {
     padding-left: 5px;
     display: inline-block;
 }
+
+.flip-card-front::after, .flip-card-back::after {  
+    opacity: 0.3;
+    background-color: #828181;
+}
+
+.tarjeta-exportaciones{
+    background-color: #fafafa;
+    border: solid 1px #ccc;
+    border-radius: 0.4em;
+    padding: 1rem;
+    margin-right: 0.5rem;
+}
+
+.tarjeta-exportaciones-verde {
+    background-color: #d8f1ec;
+    border: solid 1px #5fd0ba;
+    border-radius: 0.4em;
+    padding: 1rem;
+    margin-right: 0.5rem;
+}
+
+.exportaciones-ia{
+    font-size: 0.9rem;
+    line-height: 0.4rem;
+}

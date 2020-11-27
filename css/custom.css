@@ -7,7 +7,7 @@
 
 
 .titulo_seccion{
-    font-size: 2.5em;
+    font-size: 1.8em;
     color: #5fd0ba;
     border-bottom: #5fd0ba 5px solid;
     padding: 1% 5% 0.5% 1%;
@@ -60,7 +60,7 @@ img.alignleft, div.alignleft {
     font-size: 0.9rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #999;
+    color: #333;
     margin: 5px 5px 15px 5px;
     border-left: 2px solid #999;
     padding-left: 5px;
@@ -73,16 +73,24 @@ img.alignleft, div.alignleft {
 }
 
 .tarjeta-exportaciones{
-    background-color: #fafafa;
-    border: solid 1px #ccc;
+    background-color: #dcf5f0;
+    border: solid 1px #1abc9c;
     border-radius: 0.4em;
     padding: 1rem;
     margin-right: 0.5rem;
 }
 
-.tarjeta-exportaciones-verde {
-    background-color: #d8f1ec;
-    border: solid 1px #5fd0ba;
+.tarjeta-importaciones{
+    background-color: #cbf3eb;
+    border: solid 1px #179c82;
+    border-radius: 0.4em;
+    padding: 1rem;
+    margin-right: 0.5rem;
+}
+
+.tarjeta-saldo {
+    background-color: #9ddace;
+    border: solid 1px #328e7c;
     border-radius: 0.4em;
     padding: 1rem;
     margin-right: 0.5rem;
@@ -91,4 +99,7 @@ img.alignleft, div.alignleft {
 .exportaciones-ia{
     font-size: 0.9rem;
     line-height: 0.4rem;
+}
+.heading-block h3 {
+    font-size: 1.55rem;
 }

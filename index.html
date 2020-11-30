@@ -45,9 +45,10 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
-		<!-- Header
+		
+				<!-- Header
 		============================================= -->
-		<header id="header" class="transparent-header header-size-custom" data-sticky-shrink="false">
+		<header id="header" class="header-size-sm sticky-header sticky-header-shrink style-6" data-mobile-sticky="true">
 			<div id="header-wrap">
 				<div class="container">
 					<div class="header-row">
@@ -55,108 +56,74 @@
 						<!-- Logo
 						============================================= -->
 						<div id="logo">
-							<a href="index.html" class="standard-logo"><img src="imgs/logo.png"
-									alt="Economías Regionales - CAME"></a>
-							<a href="index.html" class="retina-logo"><img src="imgs/logo@2x.png"
-									alt="Economías Regionales - CAME"></a>
+							<a href="#" data-href="#slider" class="standard-logo" data-dark-logo="imgs/logo.png"><img src="imgs/logo.png" alt="Economías Regionales - CAME"></a>
+							<a href="#" data-href="#slider" class="retina-logo" data-dark-logo="imgs/logo@2x.png"><img src="imgs/logo@2x.png" alt="Economías Regionales - CAME"></a>
 						</div><!-- #logo end -->
 
-						<div class="header-misc">
-							<!-- Top Search
-							============================================= -->
-							<!-- <div id="top-search" class="header-misc-icon">
-								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
-							</div>-->
-							<!-- #top-search end -->
-
-							<a href="http://www.redcame.org.ar/"
-								class="button button-small font-weight-semibold button-border button-rounded ls0 font-weight-medium nott"
-								style="--themecolor: #005ca4;"><img src="imgs/CAME.png" alt="CAME"></a>
-						</div>
+				
 
 						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100">
-								<path
-									d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20">
-								</path>
-								<path d="m 30,50 h 40"></path>
-								<path
-									d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20">
-								</path>
-							</svg>
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
 						</div>
 
 						<!-- Primary Navigation
 						============================================= -->
-						<nav class="primary-menu style-4">
+						<nav class="primary-menu ">
 
-							<ul class="menu-container">
-								<li class="menu-item"><a class="menu-link" href="#slider" data-scrollto="#slider">
-										<div>Inicio</div>
-									</a></li>
-								<li class="menu-item"><a class="menu-link" href="#prologo" data-scrollto="#prologo">
-										<div><i class="icon-line2-user font-weight-semibold"></i>Prólogo</div>
-									</a>
-								<li class="menu-item"><a class="menu-link" href="#">
-										<div><i class="icon-list font-weight-semibold"></i>Índice</div>
-									</a>
+							<ul class="menu-container one-page-menu" data-easing="easeInOutExpo" data-speed="1500">
+								<li class="menu-item"><a class="menu-link" href="#" data-href="#prologo"><div>Prólogo</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#" data-href="#acciones_logros"><div>Acciones y logros</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#" data-href="#encuentros_nacionales"><div>Encuentros y reuniones</div></a>
+								<ul class="sub-menu-container">
+									<li class="menu-item"><a class="menu-item" href="#encuentros_nacionales">Encuentros	Nacionales </a></li>
+									<li class="menu-item"><a class="menu-item" href="#encuentros_regionales">Encuentros	Regionales </a></li>
+									<li class="menu-item"><a class="menu-item" href="#reuniones_destacadas">Reuniones destacadas </a></li>
+								</ul></li>
+								<li class="menu-item"><a class="menu-link" href="#" data-href="#came_sustentable"><div>CAME Sustentable</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#" data-href="#vidriera"><div>Vidriera</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#" data-href="#ipod"><div>IPOD</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#" data-href="#prensa"><div>Prensa</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#" data-href="#censo_agropecuario"><div>CNA 2018</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#" data-href="#exportaciones"><div>Exportaciones</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#" data-href="#editorial"><div>Editorial</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#" data-href="#footer"><div>Nosotros</div></a></li>
+								
+															
+										<a href="http://www.redcame.org.ar/" target="_blank" class="social-icon si-small si-paypal si-colored" title="CAME">
+											<i class=""><img src="imgs/CAME.png" alt="CAME"></i>
+											<i class=""><img src="imgs/CAME.png" alt="CAME"></i>
+										</a>
 
-									<ul class="p-3 text-muted sub-menu-container">
-										<li><a href="#acciones_logros" data-scrollto="#acciones_logros"
-												data-href="#acciones_logros" class="d-block mt-2">Acciones y
-												logros </a></li>
-										<li class="menu-item sub-menu">
-											<a class="menu-link" href="#encuentros_nacionales"
-												data-scrollto="#encuentros_nacionales">
-												<div style="font-size: 14px; font-weight: 600;">
-													<i class="icon-users"></i>Encuentros y reuniones<i
-														class="icon-angle-down"></i></div>
-											</a>
-											<ul class="sub-menu-container mega-menu-dropdown">
-												<li><a href="#encuentros_nacionales"
-														data-scrollto="#encuentros_nacionales"
-														class="d-block mt-2">Encuentros Nacionales </a></li>
-												<li><a href="#encuentros_regionales"
-														data-scrollto="#encuentros_regionales"
-														class="d-block mt-2">Encuentros Regionales </a></li>
-												<li><a href="#reuniones_destacadas"
-														data-scrollto="#reuniones_destacadas"
-														class="d-block mt-2">Reuniones destacadas </a></li>
-											</ul>
-											<button class="sub-menu-trigger icon-chevron-right"></button>
-										</li>
+										<a href="https://www.facebook.com/redcame" target="_blank" class="social-icon si-small si-facebook si-colored" title="Facebook">
+											<i class="icon-facebook"></i>
+											<i class="icon-facebook"></i>
+										</a>
+										<a href="https://twitter.com/redcame" target="_blank" class="social-icon si-small si-twitter si-colored" title="Twitter">
+											<i class="icon-twitter"></i>
+											<i class="icon-twitter"></i>
+										</a>
 
-
-										<li><a href="#came_sustentable" data-scrollto="#came_sustentable"
-												class="d-block mt-2">CAME Sustentable</a></li>
-										<li><a href="#vidriera" data-scrollto="#vidriera" class="d-block mt-2">Vidriera
-											</a></li>
-										<li><a href="#ipod" data-scrollto="#ipod" class="d-block mt-2">IPOD</a></li>
-										<li><a href="#prensa" data-scrollto="#prensa" class="d-block mt-2">Prensa</a>
-										</li>
-										<li><a href="#censo_agropecuario" data-scrollto="#censo_agropecuario"
-												class="d-block mt-2">Censo Nacional Agropecuario 2018</a>
-										</li>
-										<li><a href="#exportaciones" data-scrollto="#exportaciones"
-												class="d-block mt-2">Exportaciones</a></li>
-									</ul>
-								</li>
-								<li class="menu-item"><a class="menu-link" href="#editorial" data-scrollto="#editorial">
-										<div><i class="icon-line2-user font-weight-semibold"></i>Editorial</div>
-									</a>
+										<a href="https://www.instagram.com/redcame/" target="_blank" class="social-icon si-small si-instagram si-colored" title="Instagram">
+											<i class="icon-instagram"></i>
+											<i class="icon-instagram"></i>
+										</a>
+	
+	
+									
 							</ul>
 
 						</nav><!-- #primary-menu end -->
 
-						<!-- 	<form class="top-search-form" action="search.html" method="get">
-							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
-						</form> -->
+					
 
 					</div>
 				</div>
 			</div>
 			<div class="header-wrap-clone"></div>
 		</header><!-- #header end -->
+		
+		
+		
 
 		<!-- Slider
 		============================================= -->
@@ -206,7 +173,7 @@
 							style="background: url('imgs/GerardoDiazBeltran.jpg');background-size: 60%;background-attachment: fixed;overflow: hidden;background-position: -40% 50%;background-repeat: no-repeat;">
 						</div>
 
-						<div class="col-md-9 col-padding pt-0">
+						<div class="col-sm-12 col-md-9">
 							<div>
 								<div class="heading-block">
 									<h3>Un potencial para el desarrollo<br>Por Gerardo Díaz Beltrán </h3>
@@ -223,7 +190,7 @@
 											fueron realizadas por pymes, lo que demuestra que las exportaciones
 											argentinas
 											de agroalimentos están altamente concentradas en pocas empresas de gran
-											tamaño.<br>
+											tamaño.<br><br>
 
 											Si bien son varios los inconvenientes que dificultan la internacionalización
 											de
@@ -235,7 +202,7 @@
 											es
 											clave, pudiendo transformarse en el principal aliado —mediante políticas
 											públicas de apoyo y promoción—, o bien en un obstáculo para salir al
-											mundo.<br>
+											mundo.<br><br>
 
 											Frente a una demanda creciente de alimentos de calidad integral, desde la
 											Confederación Argentina de la Mediana Empresa (CAME) decidimos crear el
@@ -244,7 +211,7 @@
 											de
 											adecuación a nuevos parámetros de producción y consumo. En principio, esta
 											certificación estará disponible para el sector agroalimentario para, en una
-											segunda instancia, extenderse a otros sectores de la economía.<br>
+											segunda instancia, extenderse a otros sectores de la economía.<br><br>
 
 											La internacionalización es importante ya que los beneficios que conlleva no
 											solo
@@ -252,10 +219,10 @@
 											posibilitar el ingreso de divisas, inyecta dinamismo en todos los actores de
 											la
 											cadena de valor y supone un incremento en el nivel de empleo y en el poder
-											adquisitivo de los trabajadores, reactivándose la demanda local.<br>
+											adquisitivo de los trabajadores, reactivándose la demanda local.<br><br>
 
 											Si bien las pymes agroalimentarias tienen un gran potencial exportador, no
-											debemos, por ello, olvidar la relevancia del mercado interno.<br>
+											debemos, por ello, olvidar la relevancia del mercado interno.<br><br>
 
 											Nuestro territorio permite producir alimentos en casi todas sus latitudes,
 											pero
@@ -263,7 +230,7 @@
 											su
 											producto a precios que se encuentran, en su mayoría, por debajo de los
 											costos de
-											producción.<br>
+											producción.<br><br>
 
 											Esta y otras problemáticas merecen ser escuchadas y atendidas por lo que,
 											dada
@@ -275,7 +242,7 @@
 											el
 											Instituto Nacional de Semillas (INASE) y el Registro Nacional de
 											Trabajadores
-											Rurales y Empleadores (RENATRE).<br>
+											Rurales y Empleadores (RENATRE).<br><br>
 
 											Para que los pequeños y medianos productores puedan ser rentables y
 											competitivos, no solo debemos pensar en nuevas formas de comercialización
@@ -283,9 +250,9 @@
 											permitan evitar la intermediación y reducir los costos ocultos, sino también
 											en
 											impulsar una reforma laboral, impositiva y financiera acorde al sector
-											productivo, que invierte pensando en el desarrollo del país.<br>
+											productivo, que invierte pensando en el desarrollo del país.
 
-											
+
 										</p>
 										<p style="text-align: right;">Julio de 2020</p>
 									</div>
@@ -331,26 +298,27 @@
 											de la Nación, <b>Luis Miguel Etchevehere</b>; y en 2018 aunamos
 											esfuerzos con las entidades de la Mesa de Enlace e hicimos un reclamo en
 											conjunto.</p>
-											<div class="testimonial ml-4 mr-4" style="
+										<div class="testimonial ml-4 mr-4" style="
     border: 1px solid #0293d6;
 ">
-												<div class="testi-image" style="width: 9em; height: 9em;">
-													
-														<img src="imgs/a-l/GERARDO.JPG" alt="Gerardo Díaz Beltrán"
-															style="width: 100%; height: 100%;">
-												
-												</div>
-												<div class="testi-content">
-													<p>En CAME venimos trabajando hace muchos años para que las economías
-														regionales y las necesidades de las diferentes regiones sean prioridad
-														en la agenda política.</p>
-													<div class="testi-meta">
-														Gerardo Díaz Beltrán
-														<span>Presidente de la Confederación Argentina de la Mediana Empresa
-															(CAME)</span>
-													</div>
+											<div class="testi-image" style="width: 9em; height: 9em;">
+
+												<img src="imgs/a-l/GERARDO.JPG" alt="Gerardo Díaz Beltrán"
+													style="width: 100%; height: 100%;">
+
+											</div>
+											<div class="testi-content">
+												<p>En CAME venimos trabajando hace muchos años para que las economías
+													regionales y las necesidades de las diferentes regiones sean
+													prioridad
+													en la agenda política.</p>
+												<div class="testi-meta">
+													Gerardo Díaz Beltrán
+													<span>Presidente de la Confederación Argentina de la Mediana Empresa
+														(CAME)</span>
 												</div>
 											</div>
+										</div>
 									</div>
 
 									<div class="portfolio-image col-lg-4">
@@ -366,65 +334,66 @@
 										</div>
 									</div>
 								</div>
-<div class="col-12 mt-4"></div>
+								<div class="col-12 mt-4"></div>
 
 
-<div class="entry col-sm-6 col-12">
-	<div class="grid-inner">
-		<div class="entry-title">
-			<h2>Comisión Nacional de Trabajo Agrario (CNTA)</h2>
-		</div>
-		<div class="entry-content">
-			<p>En calidad de miembros permanentes, la Confederación Argentina de la
-				Mediana Empresa (CAME) cuenta con representantes paritarios en 14 de las
-				15 Comisiones Asesoras Regionales (CAR) que componen la CNTA, organismo
-				que funciona en el ámbito del Ministerio de Trabajo, Empleo y Seguridad
-				Social de la Nación.<br>
-				<br>
-				En 2019, hemos participado activamente en las discusiones de los
-				salarios mínimos de los trabajadores rurales, alcanzando más de 300
-				resoluciones publicadas. <br><br>
-				<a href="imgs/a-l/Tabla Paritarias Rurales.pdf"  data-lightbox="image"><strong>Tabla de
-					paritarias rurales (2019-2020)</strong></a>
-			</p>
+								<div class="entry col-sm-6 col-12">
+									<div class="grid-inner">
+										<div class="entry-title">
+											<h2>Comisión Nacional de Trabajo Agrario (CNTA)</h2>
+										</div>
+										<div class="entry-content">
+											<p>En calidad de miembros permanentes, la Confederación Argentina de la
+												Mediana Empresa (CAME) cuenta con representantes paritarios en 14 de las
+												15 Comisiones Asesoras Regionales (CAR) que componen la CNTA, organismo
+												que funciona en el ámbito del Ministerio de Trabajo, Empleo y Seguridad
+												Social de la Nación.<br>
+												<br>
+												En 2019, hemos participado activamente en las discusiones de los
+												salarios mínimos de los trabajadores rurales, alcanzando más de 300
+												resoluciones publicadas. <br><br>
+												<a href="imgs/tabla_paritarias_rural.jpg"
+													data-lightbox="image"><strong>Tabla de
+														paritarias rurales (2019-2020)</strong></a>
+											</p>
 
-		</div>
-		<div class="entry-image alignleft">
-			<a href="imgs/a-l/CNTA.jpg" data-lightbox="image"><img
-					src="imgs/a-l/CNTA.jpg"
-					alt="Reunión ordinaria de la Comisión Nacional de Trabajo Agrario (CNTA)"></a>
-		</div>
-		<div class="epigrafe">
-			Reunión ordinaria de la Comisión Nacional de Trabajo Agrario (CNTA)
-		</div>
-	</div>
-</div>
-<div class="entry col-sm-6 col-12">
-	<div class="grid-inner">
+										</div>
+										<div class="entry-image alignleft">
+											<a href="imgs/a-l/CNTA.jpg" data-lightbox="image"><img
+													src="imgs/a-l/CNTA.jpg"
+													alt="Reunión ordinaria de la Comisión Nacional de Trabajo Agrario (CNTA)"></a>
+										</div>
+										<div class="epigrafe">
+											Reunión ordinaria de la Comisión Nacional de Trabajo Agrario (CNTA)
+										</div>
+									</div>
+								</div>
+								<div class="entry col-sm-6 col-12">
+									<div class="grid-inner">
 
-		<div class="entry-title">
-			<h2>Baja de derechos de las exportaciones a productos de las Economías
-				Regionales</h2>
-		</div>
-		<div class="entry-content">
-			<p>Siempre sostuvimos y seguiremos sosteniendo que las retenciones son un
-				impuesto distorsivo, por lo que hemos solicitado su eliminación en
-				diversas oportunidades y, a través del Decreto 464/2019, obtuvimos una
-				baja de los derechos de exportación de 4 a 3 pesos por dólar exportado
-				para 207 posiciones arancelarias de las economías regionales. </p>
-		</div>
-		<div class="entry-image">
-			<a href="imgs/a-l/RECORTE LA NACION.jpg" data-lightbox="image"><img
-					src="imgs/a-l/RECORTE LA NACION.jpg"
-					alt="LA NACIÓN – Julio de 2019 – Sección Comercio Exterior - Página 2"></a>
-		</div>
-		<div class="epigrafe">
-			LA NACIÓN – Julio de 2019 – Sección Comercio Exterior - Página 2
-		</div>
-	</div>
-</div>
+										<div class="entry-title">
+											<h2>Baja de derechos de las exportaciones a productos de las Economías
+												Regionales</h2>
+										</div>
+										<div class="entry-content">
+											<p>Siempre sostuvimos y seguiremos sosteniendo que las retenciones son un
+												impuesto distorsivo, por lo que hemos solicitado su eliminación en
+												diversas oportunidades y, a través del Decreto 464/2019, obtuvimos una
+												baja de los derechos de exportación de 4 a 3 pesos por dólar exportado
+												para 207 posiciones arancelarias de las economías regionales. </p>
+										</div>
+										<div class="entry-image">
+											<a href="imgs/a-l/RECORTE LA NACION.jpg" data-lightbox="image"><img
+													src="imgs/a-l/RECORTE LA NACION.jpg"
+													alt="LA NACIÓN – Julio de 2019 – Sección Comercio Exterior - Página 2"></a>
+										</div>
+										<div class="epigrafe">
+											LA NACIÓN – Julio de 2019 – Sección Comercio Exterior - Página 2
+										</div>
+									</div>
+								</div>
 
-								
+
 
 
 
@@ -442,11 +411,12 @@
 												dirigentes de la Federación del Citrus de Entre Ríos (FECIER),
 												<strong>Ariel Panozzo Galmarello</strong> y <strong>Alberto
 													Grigolatto</strong>.<br>
-											Tras reunirnos con diversos legisladores nacionales, el proyecto no solo
+												Tras reunirnos con diversos legisladores nacionales, el proyecto no solo
 												fue tratado con celeridad en la Comisión de Presupuesto y Hacienda, sino
 												que también la ley fue promulgada a las pocas semanas. </p>
 											<blockquote>
-												<p style="line-height: 1.5;">Sancionada en mayo de 2019, la ley estableció la emergencia
+												<p style="line-height: 1.5;">Sancionada en mayo de 2019, la ley
+													estableció la emergencia
 													económica, productiva, financiera y social para la actividad
 													citrícola de las provincias de Entre Ríos, Corrientes, Misiones,
 													Jujuy y Salta; por el término de 1 año. </p>
@@ -464,10 +434,10 @@
 									</div>
 								</div>
 
-								
-								
 
-								
+
+
+
 								<div class="entry col-sm-6 col-12">
 									<div class="grid-inner">
 
@@ -495,7 +465,7 @@
 									</div>
 								</div>
 
-							
+
 
 								<div class="entry col-sm-6 col-12">
 									<div class="grid-inner">
@@ -531,38 +501,41 @@
 												exportación para el maní y el arroz</h2>
 										</div>
 										<div class="entry-content">
-											<div >
-											<p>La medida respondió a una gestión efectuada por CAME la que, de acuerdo a
-												lo solicitado por la Cámara Argentina del Maní, entidad adherida, y la
-												Cámara de Industriales Arroceros de Argentina (CIAAR), ambas integrantes
-												de la Mesa Agroalimentaria de la Confederación; elevó notas a
-												<strong>Guido Sandleris</strong> y <strong>Marisa Bircher</strong>, por
-												entonces presidente del Banco Central de la República Argentina (BCRA) y
-												secretaria de Comercio Exterior, respectivamente; solicitando la
-												extensión del plazo de obligación de ingreso de divisas —de 15 a 180
-												días— para las posiciones arancelarias de la Nomenclatura Común del
-												Mercosur (NCM) 1202.42 (maní confitería) y 1006 (arroz) en su totalidad.
-											</p>
-											<div style="
-											    background: url(imgs/aloz.gif);
-    background-position: 50% 47%;
-    background-size: 69%;
-    background-repeat: no-repeat;
-    height: 14rem;
-}
-											">
+											<div>
+												<p>La medida respondió a una gestión efectuada por CAME la que, de
+													acuerdo a
+													lo solicitado por la Cámara Argentina del Maní, entidad adherida, y
+													la
+													Cámara de Industriales Arroceros de Argentina (CIAAR), ambas
+													integrantes
+													de la Mesa Agroalimentaria de la Confederación; elevó notas a
+													<strong>Guido Sandleris</strong> y <strong>Marisa Bircher</strong>,
+													por
+													entonces presidente del Banco Central de la República Argentina
+													(BCRA) y
+													secretaria de Comercio Exterior, respectivamente; solicitando la
+													extensión del plazo de obligación de ingreso de divisas —de 15 a 180
+													días— para las posiciones arancelarias de la Nomenclatura Común del
+													Mercosur (NCM) 1202.42 (maní confitería) y 1006 (arroz) en su
+													totalidad.
+												</p>
+												<div style=" background: url(imgs/aloz.gif);
+															background-position: 50% 47%;
+															background-size: 69%;
+															background-repeat: no-repeat;
+															height: 14rem;">
 
+												</div>
 											</div>
+
+
 										</div>
-									
-
 									</div>
+
+
 								</div>
-
-
 							</div>
 						</div>
-					</div>
 				</section>
 				<!--Fin acciones y logros-->
 
@@ -608,11 +581,12 @@
 
 							<div class="position-relative">
 
-								<div class="timeline-border" style="height: 77%;"></div>
+								<div class="timeline-border" style="max-height: 57rem;"></div>
 
 								<!-- Posts
 									============================================= -->
-								<div id="posts" class="post-grid grid-container row post-timeline col-mb-50"
+								<div id="posts"
+									class="post-grid grid-container row post-timeline col-mb-50 has-init-isotope mb-4 pb-4"
 									data-basewidth=".entry:not(.entry-date-section):eq(0)">
 									<div class="entry entry-date-section col-12 mb-3"><span style="
 										font-size: 2rem;
@@ -623,20 +597,13 @@
 											<div class="timeline-divider"></div>
 										</div>
 										<div class="grid-inner">
-											
+
 											<div class="entry-title">
 
-												 <div style="float: left;"><h2>MESA EJECUTIVA</h2></div>
-												 <div style="
-    text-align: right;
-    float: right;
-    color: #5fd0ba;
-    font-weight: 700;
-    border-right: 2px solid #5fd0ba;
-    padding-right: 5px;
-    background-color: #5fd0ba38;
-    padding-left: 4px;
-">MARZO</div>
+												<div style="float: left;">
+													<h2>MESA EJECUTIVA</h2>
+												</div>
+												<div class="mes-der">MARZO</div>
 											</div>
 											<div class="entry-image">
 												<a href="imgs/b/Mesa Ejecutiva.JPG" data-lightbox="image"><img
@@ -660,19 +627,12 @@
 											<div class="timeline-divider"></div>
 										</div>
 										<div class="grid-inner">
-											
+
 											<div class="entry-title">
-												<div style="float: right;"><h2>MESAS AGROALIMENTARIAS</h2></div>
-												<div style="
-    
-    float: left;
-    color: #5fd0ba;
-    font-weight: 700;
-    border-left: 2px solid #5fd0ba;
-    padding-right: 5px;
-    background-color: #5fd0ba38;
-    padding-left: 5px;
-">MARZO Y JUNIO</div>
+												<div style="float: right;">
+													<h2>MESAS AGROALIMENTARIAS</h2>
+												</div>
+												<div class="mes-izk">MARZO Y JUNIO</div>
 
 											</div>
 											<div class="entry-image">
@@ -696,30 +656,35 @@
 										</div>
 									</div>
 
-									<div class="entry entry-date-section col-12 mt-0 mb-3"><span>Noviembre</span></div>
 
-									<div class="entry col-lg-12 col-12">
+									<div class="grid-inner row align-items-center m-0 p-0">
+										<div class="portfolio-image col-lg-7">
+											<div class="grid-inner">
+												<div class="entry-title">
+													<div style="float: left;">
+														<h2>PLENARIO NACIONAL</h2>
+													</div>
+													<div class="mes-der">Noviembre</div>
+												</div>
 
-										<div class="grid-inner">
-											<div class="entry-title">
-												<h2>PLENARIO NACIONAL</h2>
+												<div class="entry-image">
+													<a href="imgs/b/Plenario.jpg" data-lightbox="image">
+														<img src="imgs/b/Plenario.jpg" alt="Noviembre">
+													</a>
+												</div>
+												<div class="epigrafe">
+													Auditorio representativo y federal
+												</div>
 											</div>
-											<div class="entry-image">
-												<a href="imgs/b/Plenario.jpg" data-lightbox="image"><img
-														src="imgs/b/Plenario.jpg"
-														alt="Auditorio representativo y federal"></a>
-											</div>
-											<div class="epigrafe">
-												Auditorio representativo y federal
-											</div>
-
 										</div>
-										<div class="entry-content">
-											<p>Contó con la participación de más de 280 dirigentes agropecuarios de
+										<div class="portfolio-desc col-lg-5" style="padding-right:0rem !important ;">
+
+
+											<p><br>Contó con la participación de más de 280 dirigentes agropecuarios de
 												todo el país, quienes expusieron los diferentes desafíos que debe
 												enfrentar el sector para llevar sus productos a la mesa de los
-												argentinos. </p>
-											<p>Para recuperar rentabilidad y competitividad, surgieron varias
+												argentinos. <br>Para recuperar rentabilidad y competitividad, surgieron
+												varias
 												propuestas entre las que se destacaron la adecuación de políticas
 												laborales a la realidad del sector agropecuario; un régimen
 												tributario diferencial por tamaño de empresa y región; incentivos a
@@ -728,17 +693,20 @@
 												fletes; baja de retenciones y mayores reintegros a la exportación;
 												suspensión del impuesto al cheque; y un Plan de Conectividad para
 												zonas rurales tendiente a federalizar el acceso a Internet; entre
-												otras. </p>
-											<p>Estuvieron también presentes en el evento <strong>Clara
+												otras. <br>Estuvieron también presentes en el evento <strong>Clara
 													Vega</strong>, <strong>Ricardo Buryaile</strong> y
 												<strong>Carlos Selva</strong>; por entonces senadora electa y
 												diputados electos, respectivamente. </p>
+
 										</div>
 									</div>
+
+
 								</div>
 							</div>
 						</div>
 					</div>
+					<div class="clearfix"></div>
 				</section>
 				<!--Fin encuentros nacionales-->
 
@@ -747,7 +715,7 @@
 					<div class="clearfix mt-5">
 						<h2 class="titulo_seccion">Encuentros regionales</h2>
 					</div>
-					<div class="">
+					<div>
 						<div class="container clearfix">
 
 							<div class="entry-image">
@@ -759,49 +727,40 @@
 								</div>
 							</div>
 
-							<div class="position-relative">
 
-								<div class="timeline-border"></div>
-
-								<!-- Posts
-								============================================= -->
-								<div id="posts" class="post-grid grid-container row post-timeline"
-									data-basewidth=".entry:not(.entry-date-section):eq(0)">
-
-									<div class="entry entry-date-section col-12 mb-3"><span>Octubre</span></div>
-
-									<div class="entry col-12">
-										<div class="entry-timeline">
-											<div class="timeline-divider"></div>
+							<div class="grid-inner row align-items-center m-0 p-0">
+								<div class="portfolio-image col-lg-8">
+									<div class="grid-inner">
+										<div class="entry-title">
+											<div style="float: left;">
+												<h2 style="font-size: 1.125rem;">Jornada sectorial en Villa Regina, Río
+													Negro</h2>
+											</div>
+											<div class="mes-der">Octubre</div>
 										</div>
 
+										<div class="entry-image">
+											<a href="imgs/c/VillaRegina.jpg" data-lightbox="image">
+												<img src="imgs/c/VillaRegina.jpg" alt="Octubre">
+											</a>
+										</div>
+										<div class="epigrafe">
+											De izq. a der.: Mauricio Molinaro, Alejandro Palmieri, Gerardo Díaz Beltrán,
+											Eduardo Rodríguez, y Sebastián Hernández
+
+										</div>
 									</div>
 								</div>
-
-							</div>
-							<div class="grid-inner">
-								<div class="entry-title">
-									<h2>Jornada sectorial en Villa Regina, Río Negro</h2>
-								</div>
-								<div class="entry-image">
-									<a href="imgs/c/VillaRegina.jpg" data-lightbox="image"><img
-											src="imgs/c/VillaRegina.jpg" alt="Standard Post with Image"></a>
-								</div>
-								<div class="epigrafe">
-									De izq. a der.: Mauricio
-									Molinaro, Alejandro Palmieri, Gerardo Díaz Beltrán, Eduardo
-									Rodríguez, y Sebastián Hernández
-								</div>
-								<div class="entry-content m-0">
+								<div class="portfolio-desc col-lg-4" style="padding-right:0rem !important ;">
 									<p>Organizada junto con la Cámara de Productores de Villa Regina,
 										General E. Godoy, Chichinales y Valle Azul; ante 200 productores
 										agropecuarios del sur argentino, el presidente de CAME,
 										<strong>Gerardo Díaz Beltrán</strong>, afirmó: “En 2019, las
 										exportaciones de las economías regionales alcanzarán los 7200
 										millones de dólares”. </p>
-
 								</div>
 							</div>
+
 
 
 						</div>
@@ -820,9 +779,8 @@
 						<div class="container clearfix">
 
 							<div class="entry-image">
-								<a href="imgs/d/SICA.jpg" data-lightbox="image"><img src="imgs/d/SICA.jpg" alt="Comitiva de Economías Regionales de CAME junto al por entonces ministro de Producción y Trabajo de la Nación, Dante Sica
-
-										"></a>
+								<a href="imgs/d/SICA.jpg" data-lightbox="image"><img src="imgs/d/SICA.jpg"
+										alt="Comitiva de Economías Regionales de CAME junto al por entonces ministro de Producción y Trabajo de la Nación, Dante Sica"></a>
 								<div class="epigrafe">
 									Comitiva de Economías Regionales de CAME junto al por entonces ministro de
 									Producción y Trabajo de la Nación, Dante Sica
@@ -848,9 +806,11 @@
 												</a>
 											</div>
 										</div>
-										<div class="portfolio-desc col-lg-5 p-4 py-lg-0 px-lg-5"  style="padding-right:0rem !important ;">
-											<h3>MARZO</h3>
+										<div class="portfolio-desc col-lg-5 p-4 py-lg-0 px-lg-5"
+											style="padding-right:0rem !important ;">
 
+											<div class="mes-izk">MARZO</div>
+											<div class="clearfix"></div>
 											<p class="mt-3">A fin de afianzar los vínculos
 												institucionales, el presidente de la Confederación Argentina de la
 												Mediana Empresa (CAME), <strong> Díaz Beltrán</strong>, junto al titular
@@ -872,19 +832,21 @@
 												<a href="imgs/d/sica/IMG_3403.jpg" data-lightbox="image">
 													<img src="imgs/d/sica/IMG_3403.jpg" alt="JULIO">
 												</a>
-											
+
 											</div>
 										</div>
-										<div class="portfolio-desc col-lg-6 p-4 py-lg-0 px-lg-5" style="padding-left:0rem !important ;">
-											<h3>JULIO</h3>
-
+										<div class="portfolio-desc col-lg-6 p-4 py-lg-0 px-lg-5"
+											style="padding-left:0rem !important ;">
+											<div class="mes-izk">JULIO</div>
+											<div class="clearfix"></div>
 											<p class="mt-3">Una comitiva de Economías Regionales de la
 												Confederación Argentina de la Mediana Empresa (CAME), encabezada por el
 												presidente de la entidad, <strong>Gerardo Díaz Beltrán</strong>, le
 												presentó al por entonces ministro de Producción y Trabajo de la Nación,
 												<strong>Dante Sica</strong>, propuestas estratégicas para la mejora de
 												la competitividad de la agroindustria nacional ante el acuerdo Mercosur
-												– Unión Europea. <br>El documento detallaba medidas para alcanzar previsibilidad y reglas de
+												– Unión Europea. <br>El documento detallaba medidas para alcanzar
+												previsibilidad y reglas de
 												juego claras en torno a una nueva política laboral y social; un régimen
 												tributario que aliente la generación de empleo; financiamiento para los
 												productores pyme a tasas razonables; el desarrollo de un mercado interno
@@ -912,10 +874,10 @@
 										</div>
 										<!-- Image: End -->
 										<!-- Decription: Start -->
-										<div class="portfolio-desc col-lg-5 p-4 py-lg-0 px-lg-5" style="padding-right:0rem !important ;">
-											<h3>OCTUBRE</h3>
-
-
+										<div class="portfolio-desc col-lg-5 p-4 py-lg-0 px-lg-5"
+											style="padding-right:0rem !important ;">
+											<div class="mes-izk">OCTUBRE</div>
+											<div class="clearfix"></div>
 											<p class="mt-3">Para abordar un tema de competencia
 												desleal, <strong>Ariel Zucarelli</strong> y <strong>José
 													Spitalieri</strong>, presidente y vicepresidente de la Asociación de
@@ -939,14 +901,17 @@
 									<div class="grid-inner row align-items-center no-gutters">
 										<div class="portfolio-image col-lg-6 order-lg-last">
 											<div class="grid-inner">
+
 												<a href="imgs/d/BAYER.jpg" data-lightbox="image">
 													<img src="imgs/d/BAYER.jpg" alt="BAYER">
 												</a>
 											</div>
 										</div>
-										<div class="portfolio-desc col-lg-6 p-4 py-lg-0 px-lg-5" style="padding-left:0rem !important ;">
-											<h3>NOVIEMBRE</h3>
+										<div class="portfolio-desc col-lg-6 p-4 py-lg-0 px-lg-5"
+											style="padding-left:0rem !important ;">
 
+											<div class="mes-izk">NOVIEMBRE</div>
+											<div class="clearfix"></div>
 											<p class="mt-3">Acompañamos a <strong>Héctor
 													Linke</strong>, <strong>Marcelo Falco</strong> y <strong>Esteban
 													Romero</strong>, de la Asociación Argentina de Productores
@@ -967,6 +932,7 @@
 										<!-- Image: Start -->
 										<div class="portfolio-image col-lg-6">
 											<div class="grid-inner">
+
 												<a href="imgs/d/CONSEJO DEL HAMBRE.jpg" data-lightbox="image">
 													<img src="imgs/d/CONSEJO DEL HAMBRE.jpg"
 														alt="DICIEMBRE - CONSEJO DEL HAMBRE">
@@ -975,9 +941,11 @@
 										</div>
 										<!-- Image: End -->
 										<!-- Decription: Start -->
-										<div class="portfolio-desc col-lg-6 p-4 py-lg-0 px-lg-5" style="padding-right:0rem !important ;">
-											<h3>DICIEMBRE</h3>
+										<div class="portfolio-desc col-lg-6 p-4 py-lg-0 px-lg-5"
+											style="padding-right:0rem !important ;">
 
+											<div class="mes-izk">DICIEMBRE</div>
+											<div class="clearfix"></div>
 
 											<p class="mt-3">Junto a autoridades representantes de los
 												distintos sectores productivos y sociales del país, el director
@@ -1007,8 +975,10 @@
 												</a>
 											</div>
 										</div>
-										<div class="portfolio-desc col-lg-6 p-4 py-lg-0 px-lg-5" style="padding-left:0rem !important ;">
-											<h3>DICIEMBRE</h3>
+										<div class="portfolio-desc col-lg-6 p-4 py-lg-0 px-lg-5"
+											style="padding-left:0rem !important ;">
+											<div class="mes-izk">DICIEMBRE</div>
+											<div class="clearfix"></div>
 
 											<p class="mt-3">Convocados por la Comisión Nacional de
 												Justicia y Paz (CNJP), organismo de la Conferencia Episcopal Argentina,
@@ -1038,169 +1008,195 @@
 					</div>
 
 					<div class="p-lg-6 p-md-1">
-					<div class="row grid-container" data-layout="masonry" style="overflow: visible">
-						
-						<div class="col-lg-4 mb-4">
-							<div class="flip-card text-center">
-								<div class="flip-card-front dark" style="background-color:#9F4794;">
-									<div class="flip-card-inner">
-										<div class="card bg-transparent border-0 text-center">
-											<div class="card-body">
-												<h3 class="card-title">ORÍGENES DEL SELLO <br>“CAME SUSTENTABLE”</h3>
+						<div class="row grid-container" data-layout="masonry" style="overflow: visible">
+
+							<div class="col-lg-4 mb-4">
+								<div class="flip-card text-center">
+									<div class="flip-card-front dark" style="background-color:#9F4794;">
+										<div class="flip-card-inner">
+											<div class="card bg-transparent border-0 text-center">
+												<div class="card-body">
+													<h3 class="card-title">ORÍGENES DEL SELLO <br>“CAME SUSTENTABLE”
+													</h3>
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="flip-card-back no-after" style="background-color:#9F4794;">
-									<div class="flip-card-inner">
-										<p class="mb-2 text-white" style="line-height: 1.2;">La innovación en procesos sociales e industriales combinada con la exigencia constante del consumidor a la hora de elegir productos hacen que el mercado deba adecuarse rápidamente a nuevos parámetros de producción y consumo. En CAME acompañamos a las pymes en esta adaptación y por ello creamos el sello “CAME Sustentable”.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-lg-4 mb-4">
-							<div class="flip-card text-center">
-								<div class="flip-card-front dark" style="background-color: #D66E30;">
-									<div class="flip-card-inner">
-										<div class="card bg-transparent border-0 text-center">
-											<div class="card-body">
-												<h3 class="card-title">¿QUÉ ES “CAME SUSTENTABLE”?</h3>
-											</div>
+									<div class="flip-card-back no-after" style="background-color:#9F4794;">
+										<div class="flip-card-inner">
+											<p class="mb-2 text-white" style="line-height: 1.2;">La innovación en
+												procesos sociales e industriales combinada con la exigencia constante
+												del consumidor a la hora de elegir productos hacen que el mercado deba
+												adecuarse rápidamente a nuevos parámetros de producción y consumo. En
+												CAME acompañamos a las pymes en esta adaptación y por ello creamos el
+												sello “CAME Sustentable”.</p>
 										</div>
 									</div>
 								</div>
-								<div class="flip-card-back no-after" style="background-color: #D66E30;">
-									<div class="flip-card-inner">
-										<p class="mb-2 text-white" style="line-height: 1.2;">Es una certificación para empresas, única en su tipo en Latinoamérica, fundamentada en los principios del Triple Impacto y alineada con los Objetivos de Desarrollo Sostenible (ODS) de las Naciones Unidas que, entre otras bondades, permite una mejora en la calidad de los procesos productivos, aportando criterios para la eficiencia en el uso de los recursos, así como también para la minimización de impactos negativos y maximización de los positivos sobre el entorno social, cultural y ambiental.</p>
-									</div>
-								</div>
 							</div>
-						</div>
 
-						<div class="col-lg-4 mb-4">
-							<div class="flip-card text-center">
-								<div class="flip-card-front dark" style="background-color:#ccb42a;">
-									<div class="flip-card-inner">
-										<div class="card bg-transparent border-0 text-center">
-											<div class="card-body">
-												<h3 class="card-title">¿QUIÉNES PUEDEN PARTICIPAR?</h3>
+							<div class="col-lg-4 mb-4">
+								<div class="flip-card text-center">
+									<div class="flip-card-front dark" style="background-color: #D66E30;">
+										<div class="flip-card-inner">
+											<div class="card bg-transparent border-0 text-center">
+												<div class="card-body">
+													<h3 class="card-title">¿QUÉ ES “CAME SUSTENTABLE”?</h3>
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="flip-card-back no-after" style="background-color:#dca032;">
-									<div class="flip-card-inner">
-										<p class="mb-2 text-white" style="line-height: 1.2;">En una primera instancia, el estándar es aplicable a todas las empresas del sector agroalimentario que deseen implementar un sistema de gestión sustentable. Sin embargo, se prevé que el sello pueda ampliarse paulatinamente a otros sectores de la economía (turismo, comercio, etcétera).
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-
-
-						<div class="col-lg-4 mb-4">
-							<div class="flip-card text-center">
-								<div class="flip-card-front dark" style="background-color:#518F4D;">
-									<div class="flip-card-inner">
-										<div class="card bg-transparent border-0 text-center">
-											<div class="card-body">
-												<h3 class="card-title">NIVELES DE CERTIFICACIÓN
-												</h3>
-											</div>
+									<div class="flip-card-back no-after" style="background-color: #D66E30;">
+										<div class="flip-card-inner">
+											<p class="mb-2 text-white" style="line-height: 1.2;">Es una certificación
+												para empresas, única en su tipo en Latinoamérica, fundamentada en los
+												principios del Triple Impacto y alineada con los Objetivos de Desarrollo
+												Sostenible (ODS) de las Naciones Unidas que, entre otras bondades,
+												permite una mejora en la calidad de los procesos productivos, aportando
+												criterios para la eficiencia en el uso de los recursos, así como también
+												para la minimización de impactos negativos y maximización de los
+												positivos sobre el entorno social, cultural y ambiental.</p>
 										</div>
 									</div>
 								</div>
-								<div class="flip-card-back no-after" style="background-color:#518F4D;">
-									<div class="flip-card-inner">
-										<p class="mb-2 text-white" style="line-height: 1.2;">El sello “CAME Sustentable” contará con tres niveles
-											—de menor a mayor exigencia, en cuanto a los requisitos—.
-
-
-										</p>
-									</div>
-								</div>
 							</div>
-						</div>
-						<div class="col-lg-4 mb-4">
-							<div class="flip-card text-center">
-								<div class="flip-card-front dark" style="background-color:#68A4DA;">
-									<div class="flip-card-inner">
-										<div class="card bg-transparent border-0 text-center">
-											<div class="card-body">
-												<h3 class="card-title">METODOLOGÍA
-												</h3>
+
+							<div class="col-lg-4 mb-4">
+								<div class="flip-card text-center">
+									<div class="flip-card-front dark" style="background-color:#ccb42a;">
+										<div class="flip-card-inner">
+											<div class="card bg-transparent border-0 text-center">
+												<div class="card-body">
+													<h3 class="card-title">¿QUIÉNES PUEDEN PARTICIPAR?</h3>
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="flip-card-back no-after" style="background-color:#68A4DA;">
-									<div class="flip-card-inner">
-										<p class="mb-2 text-white" style="line-height: 1.2;">Trabajamos en el desarrollo de una herramienta que certifica procesos mediante una auditoría de tercera parte. Luego de la verificación del cumplimiento de los requisitos establecidos para cada uno de los niveles por parte de un auditor, la empresa podrá utilizar el sello “CAME Sustentable” específico del nivel alcanzado.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 mb-4">
-							<div class="flip-card text-center">
-								<div class="flip-card-front dark" style="background-color:#2466AE;">
-									<div class="flip-card-inner">
-										<div class="card bg-transparent border-0 text-center">
-											<div class="card-body">
-												<h3 class="card-title">PRINCIPALES BENEFICIOS
-												</h3>
-											</div>
+									<div class="flip-card-back no-after" style="background-color:#dca032;">
+										<div class="flip-card-inner">
+											<p class="mb-2 text-white" style="line-height: 1.2;">En una primera
+												instancia, el estándar es aplicable a todas las empresas del sector
+												agroalimentario que deseen implementar un sistema de gestión
+												sustentable. Sin embargo, se prevé que el sello pueda ampliarse
+												paulatinamente a otros sectores de la economía (turismo, comercio,
+												etcétera).
+											</p>
 										</div>
 									</div>
 								</div>
-								<div class="flip-card-back no-after" style="background-color:#2466AE;">
-									<div class="flip-card-inner">
-										<p class="mb-2 text-white" style="text-align: left; line-height: 1.2;" >
-											• Acompañamiento y asesoramiento técnico durante todo el proceso de certificación.<br>
-											• Apertura a nuevos mercados.<br>
-											• Vinculación con socios estratégicos nacionales e internacionales.<br>
-											• Asesoramiento en líneas de financiamiento nacionales e internacionales.<br>
-											• ¡Y más!
-										</p>
-									</div>
-								</div>
 							</div>
-						</div>
-						<div class="col-lg-4 mb-4"></div>
-						<div class="col-lg-4 mb-4">
-							<div class="flip-card text-center dark">
-								<div class="flip-card-front" style="background-color:#ffffff;">
-									<div class="flip-card-inner">
-										<div class="card bg-transparent border-0 text-center">
-											<div class="card-body">
-												<img src="imgs/e/CAME_Sustentable.png" alt="CAME Sustentable">
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="flip-card-back no-after" style="background-color:#005ca4;">
-									<div class="flip-card-inner">
-										<h3 class="text-uppercase" style="font-weight: 600;">Más información</h3>
-										<a href="mailto:sellocamesustentable@came.org.ar"
-											class="button button-border button-light button-rounded text-uppercase m-0">contactanos</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 mb-4"></div>
-					
 
-					
+
+
+
+							<div class="col-lg-4 mb-4">
+								<div class="flip-card text-center">
+									<div class="flip-card-front dark" style="background-color:#518F4D;">
+										<div class="flip-card-inner">
+											<div class="card bg-transparent border-0 text-center">
+												<div class="card-body">
+													<h3 class="card-title">NIVELES DE CERTIFICACIÓN
+													</h3>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="flip-card-back no-after" style="background-color:#518F4D;">
+										<div class="flip-card-inner">
+											<p class="mb-2 text-white" style="line-height: 1.2;">El sello “CAME
+												Sustentable” contará con tres niveles
+												—de menor a mayor exigencia, en cuanto a los requisitos—.
+
+
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 mb-4">
+								<div class="flip-card text-center">
+									<div class="flip-card-front dark" style="background-color:#68A4DA;">
+										<div class="flip-card-inner">
+											<div class="card bg-transparent border-0 text-center">
+												<div class="card-body">
+													<h3 class="card-title">METODOLOGÍA
+													</h3>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="flip-card-back no-after" style="background-color:#68A4DA;">
+										<div class="flip-card-inner">
+											<p class="mb-2 text-white" style="line-height: 1.2;">Trabajamos en el
+												desarrollo de una herramienta que certifica procesos mediante una
+												auditoría de tercera parte. Luego de la verificación del cumplimiento de
+												los requisitos establecidos para cada uno de los niveles por parte de un
+												auditor, la empresa podrá utilizar el sello “CAME Sustentable”
+												específico del nivel alcanzado.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 mb-4">
+								<div class="flip-card text-center">
+									<div class="flip-card-front dark" style="background-color:#2466AE;">
+										<div class="flip-card-inner">
+											<div class="card bg-transparent border-0 text-center">
+												<div class="card-body">
+													<h3 class="card-title">PRINCIPALES BENEFICIOS
+													</h3>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="flip-card-back no-after" style="background-color:#2466AE;">
+										<div class="flip-card-inner">
+											<p class="mb-2 text-white" style="text-align: left; line-height: 1.2;">
+												• Acompañamiento y asesoramiento técnico durante todo el proceso de
+												certificación.<br>
+												• Apertura a nuevos mercados.<br>
+												• Vinculación con socios estratégicos nacionales e internacionales.<br>
+												• Asesoramiento en líneas de financiamiento nacionales e
+												internacionales.<br>
+												• ¡Y más!
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 mb-4"></div>
+							<div class="col-lg-4 mb-4">
+								<div class="flip-card text-center dark">
+									<div class="flip-card-front" style="background-color:#ffffff;">
+										<div class="flip-card-inner">
+											<div class="card bg-transparent border-0 text-center">
+												<div class="card-body">
+													<img src="imgs/e/CAME_Sustentable.png" alt="CAME Sustentable">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="flip-card-back no-after" style="background-color:#005ca4;">
+										<div class="flip-card-inner">
+											<h3 class="text-uppercase" style="font-weight: 600;">Más información</h3>
+											<a href="mailto:sellocamesustentable@came.org.ar"
+												class="button button-border button-light button-rounded text-uppercase m-0">contactanos</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 mb-4"></div>
+
+
+
+
+						</div>
+
 
 					</div>
-			
-						
-					</div>
-			
-				
+
+
 
 				</section>
 				<!-- Fin CAME Sustentable-->
@@ -1215,9 +1211,9 @@
 							<div class="masonry-thumbs grid-container grid-5 has-init-isotope" data-big="1,9,17"
 								data-lightbox="gallery" style="position: relative; height: 582.843px;">
 								<a class="grid-item" href="imgs/f/1 (5).jpg" data-lightbox="gallery-item"
-								style="position: absolute;  top: 0px;" alt="BUENOS AIRES  JONAGRO 2019"
-								title="BUENOS AIRES  JONAGRO 2019">
-								<img src="imgs/f/l/1 (5).jpg" alt="BUENOS AIRES  JONAGRO 2019">
+									style="position: absolute;  top: 0px;" alt="BUENOS AIRES  JONAGRO 2019"
+									title="BUENOS AIRES  JONAGRO 2019">
+									<img src="imgs/f/l/1 (5).jpg" alt="BUENOS AIRES  JONAGRO 2019">
 								</a>
 								<a class="grid-item" href="imgs/f/1 (1).jpg" data-lightbox="gallery-item"
 									style="position: absolute;  top: 0px;"
@@ -1296,11 +1292,11 @@
 									<img src="imgs/f/l/1 (14).jpg" alt="LAS GRUTAS, RÍO NEGRO  Foro CAME Patagonia">
 								</a>
 								<a class="grid-item" href="imgs/f/1 (15).jpg" data-lightbox="gallery-item"
-								style="position: absolute;  top: 0px;"
-								alt="RÍO NEGRO  Jornada Técnica sobre Protección de Cerezos"
-								title="RÍO NEGRO  Jornada Técnica sobre Protección de Cerezos">
-								<img src="imgs/f/l/1 (15).jpg"
-									alt="RÍO NEGRO  Jornada Técnica sobre Protección de Cerezos">
+									style="position: absolute;  top: 0px;"
+									alt="RÍO NEGRO  Jornada Técnica sobre Protección de Cerezos"
+									title="RÍO NEGRO  Jornada Técnica sobre Protección de Cerezos">
+									<img src="imgs/f/l/1 (15).jpg"
+										alt="RÍO NEGRO  Jornada Técnica sobre Protección de Cerezos">
 								</a>
 								<a class="grid-item" href="imgs/f/1 (16).jpg" data-lightbox="gallery-item"
 									style="position: absolute;  top: 0px;" alt="ROSARIO, SANTA FE  FIAR 2019"
@@ -1314,11 +1310,11 @@
 									<img src="imgs/f/l/1 (17).jpg" alt="SALTA  4ta. Feria de las Legumbres del NOA">
 								</a>
 								<a class="grid-item" href="imgs/f/1 (10).jpg" data-lightbox="gallery-item"
-								style="position: absolute;  top: 0px;"
-								alt="BUENOS AIRES  XXX Reunión del Sector Cooperativo de la Agricultura Familiar"
-								title="BUENOS AIRES  XXX Reunión del Sector Cooperativo de la Agricultura Familiar">
-								<img src="imgs/f/l/1 (10).jpg"
-									alt="BUENOS AIRES  XXX Reunión del Sector Cooperativo de la Agricultura Familiar">
+									style="position: absolute;  top: 0px;"
+									alt="BUENOS AIRES  XXX Reunión del Sector Cooperativo de la Agricultura Familiar"
+									title="BUENOS AIRES  XXX Reunión del Sector Cooperativo de la Agricultura Familiar">
+									<img src="imgs/f/l/1 (10).jpg"
+										alt="BUENOS AIRES  XXX Reunión del Sector Cooperativo de la Agricultura Familiar">
 								</a>
 								<a class="grid-item" href="imgs/f/1 (18).jpg" data-lightbox="gallery-item"
 									style="position: absolute;  top: 0px;" alt="SALTA  54° Fiesta Provincial del Tabaco"
@@ -1332,7 +1328,7 @@
 									<img src="imgs/f/l/1 (19).jpg"
 										alt="SAN PEDRO, BUENOS AIRES  1er. Encuentro Regional de Productores Bonaerenses Noroeste FEBA - FEBAPRI">
 								</a>
-								
+
 								<a class="grid-item" href="imgs/f/1 (20).jpg" data-lightbox="gallery-item"
 									style="position: absolute;  top: 0px;"
 									alt="SANTA FE  69° Aniversario de la Sociedad de Quinteros de Santa Fe"
@@ -1393,7 +1389,7 @@
 											<div class="grid-inner">
 												<a href="imgs/g/la_nacion.jpg" data-lightbox="image">
 													<img src="imgs/g/la_nacion.jpg" alt="La nacion"></a>
-													<div class="epigrafe">26 de agosto de 2019 - Economía, Página 16</div>
+												<div class="epigrafe">26 de agosto de 2019 - Economía, Página 16</div>
 											</div>
 										</div>
 									</div>
@@ -1442,8 +1438,8 @@
 					background-position: -1% 100%;
 					background-size: 17%;
 					background-repeat: no-repeat;">
-					
-				
+
+
 
 						<div class="container clearfix">
 
@@ -1452,7 +1448,7 @@
 								data-margin="10" data-pagi="false" data-items-xs="1" data-items-sm="2" data-items-md="3"
 								data-items-lg="4" data-lightbox="gallery">
 
-<!-- CLARÍN – Enero (nombre del medio con mayúscula y mes con minúscula). 
+								<!-- CLARÍN – Enero (nombre del medio con mayúscula y mes con minúscula). 
 El País – Página 18 (sección y página con minúscula).
 -->
 								<article class="portfolio-item pf-uielements pf-media">
@@ -1502,7 +1498,8 @@ El País – Página 18 (sección y página con minúscula).
 															data-hover-animate="fadeInUpSmall"
 															data-hover-animate-out="fadeOutDownSmall"
 															data-hover-speed="350" data-lightbox="image"
-															title="CLARÍN - Enero - Suplemento rural - Página 4"><i class="icon-line-plus"></i></a>
+															title="CLARÍN - Enero - Suplemento rural - Página 4"><i
+																class="icon-line-plus"></i></a>
 													</div>
 												</div>
 												<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
@@ -1651,7 +1648,8 @@ El País – Página 18 (sección y página con minúscula).
 															data-hover-animate="fadeInUpSmall"
 															data-hover-animate-out="fadeOutDownSmall"
 															data-hover-speed="350" data-lightbox="image"
-															title="DIARIO POPULAR - Junio - Economía – Página 12"><i class="icon-line-plus"></i></a>
+															title="DIARIO POPULAR - Junio - Economía – Página 12"><i
+																class="icon-line-plus"></i></a>
 													</div>
 												</div>
 												<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
@@ -1680,7 +1678,8 @@ El País – Página 18 (sección y página con minúscula).
 															data-hover-animate="fadeInUpSmall"
 															data-hover-animate-out="fadeOutDownSmall"
 															data-hover-speed="350" data-lightbox="image"
-															title="PERFIL - Julio - Suplemento Super Campo - Página 2"><i class="icon-line-plus"></i></a>
+															title="PERFIL - Julio - Suplemento Super Campo - Página 2"><i
+																class="icon-line-plus"></i></a>
 													</div>
 												</div>
 												<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
@@ -1709,7 +1708,8 @@ El País – Página 18 (sección y página con minúscula).
 															data-hover-animate="fadeInUpSmall"
 															data-hover-animate-out="fadeOutDownSmall"
 															data-hover-speed="350" data-lightbox="image"
-															title="LA PRENSA - Agosto - Política – Página 5"><i class="icon-line-plus"></i></a>
+															title="LA PRENSA - Agosto - Política – Página 5"><i
+																class="icon-line-plus"></i></a>
 													</div>
 												</div>
 												<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
@@ -1738,7 +1738,8 @@ El País – Página 18 (sección y página con minúscula).
 															data-hover-animate="fadeInUpSmall"
 															data-hover-animate-out="fadeOutDownSmall"
 															data-hover-speed="350" data-lightbox="image"
-															title="EL ECONOMISTA - Septiembre - Economía – Página 5"><i class="icon-line-plus"></i></a>
+															title="EL ECONOMISTA - Septiembre - Economía – Página 5"><i
+																class="icon-line-plus"></i></a>
 													</div>
 												</div>
 												<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
@@ -1767,7 +1768,8 @@ El País – Página 18 (sección y página con minúscula).
 															data-hover-animate="fadeInUpSmall"
 															data-hover-animate-out="fadeOutDownSmall"
 															data-hover-speed="350" data-lightbox="image"
-															title="ÁMBITO FINANCIERO - Octubre - Economía – Página 9"><i class="icon-line-plus"></i></a>
+															title="ÁMBITO FINANCIERO - Octubre - Economía – Página 9"><i
+																class="icon-line-plus"></i></a>
 													</div>
 												</div>
 												<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
@@ -1796,7 +1798,8 @@ El País – Página 18 (sección y página con minúscula).
 															data-hover-animate="fadeInUpSmall"
 															data-hover-animate-out="fadeOutDownSmall"
 															data-hover-speed="350" data-lightbox="image"
-															title="LA PRENSA - Noviembre - Política - Página 9"><i class="icon-line-plus"></i></a>
+															title="LA PRENSA - Noviembre - Política - Página 9"><i
+																class="icon-line-plus"></i></a>
 													</div>
 												</div>
 												<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
@@ -1825,7 +1828,8 @@ El País – Página 18 (sección y página con minúscula).
 															data-hover-animate="fadeInUpSmall"
 															data-hover-animate-out="fadeOutDownSmall"
 															data-hover-speed="350" data-lightbox="image"
-															title="LA NACIÓN - Diciembre - Economía – Página 19"><i class="icon-line-plus"></i></a>
+															title="LA NACIÓN - Diciembre - Economía – Página 19"><i
+																class="icon-line-plus"></i></a>
 													</div>
 												</div>
 												<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
@@ -1854,7 +1858,8 @@ El País – Página 18 (sección y página con minúscula).
 															data-hover-animate="fadeInUpSmall"
 															data-hover-animate-out="fadeOutDownSmall"
 															data-hover-speed="350" data-lightbox="image"
-															title="PÁGINA 12 - Diciembre - Página 17"><i class="icon-line-plus"></i></a>
+															title="PÁGINA 12 - Diciembre - Página 17"><i
+																class="icon-line-plus"></i></a>
 													</div>
 												</div>
 												<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
@@ -1883,7 +1888,8 @@ El País – Página 18 (sección y página con minúscula).
 															data-hover-animate="fadeInUpSmall"
 															data-hover-animate-out="fadeOutDownSmall"
 															data-hover-speed="350" data-lightbox="image"
-															title="DIARIO POPULAR - Diciembre - Economía - Página 8"><i class="icon-line-plus"></i></a>
+															title="DIARIO POPULAR - Diciembre - Economía - Página 8"><i
+																class="icon-line-plus"></i></a>
 													</div>
 												</div>
 												<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
@@ -1895,7 +1901,7 @@ El País – Página 18 (sección y página con minúscula).
 										</div>
 									</div>
 								</article>
-								
+
 
 							</div>
 						</div>
@@ -1928,7 +1934,6 @@ El País – Página 18 (sección y página con minúscula).
 								<div class="row align-items-center col-mb-50">
 
 									<div class="col-md-4">
-										<canvas id="chart-doughnut"></canvas>
 										<p>
 											- La mayor proporción, un 84 %, tienen tipo jurídico personas humanas y, por
 											orden de importancia, le siguen las EAP con persona jurídica (11 %).
@@ -1948,7 +1953,6 @@ El País – Página 18 (sección y página con minúscula).
 										</div>
 									</div>
 									<div class="col-md-4 text-center text-md-left">
-										<canvas id="chart-cultivos"></canvas>
 
 										<p>
 											- El 69 % de la superficie implantada se utilizó para cultivos anuales; 11 %
@@ -2056,28 +2060,36 @@ El País – Página 18 (sección y página con minúscula).
 										</h3>
 									</div>
 									<h4>Acumulado ENERO - DICIEMBRE 2019 - Variaciones interanuales</h4>
-									
-								
+
+
 								</div>
 
 							</div>
-							
-									<div class="row center container">
-									
-										<div class="col-2 tarjeta-exportaciones"><strong>EXPORTACIONES</strong> <br>Economías Regionales</div>
-									
-									<div class="col-2 tarjeta-exportaciones"><strong>USD 7.244</strong> <br>Millones de Dólares Exportados </div>
-									
-									<div class="col-2 tarjeta-exportaciones"><strong>USD 108</strong> <br>Millones MENOS que en 2018</div>
-									
-									<div class="col-2 tarjeta-exportaciones"><strong>↓-1,5%</strong><br>i.a.</div>
-									
-									</div>
-							
+
+							<div class="row center container">
+
+								<div class="col-sm-3 col-md-4 col-lg-2 tarjeta-exportaciones">
+									<strong>EXPORTACIONES</strong> <br>Economías
+									Regionales</div>
+
+								<div class="col-sm-3 col-md-4 col-lg-2  tarjeta-exportaciones"><strong>USD
+										7.244</strong> <br>Millones de
+									Dólares Exportados </div>
+
+								<div class="col-sm-3 col-md-4 col-lg-2  tarjeta-exportaciones"><strong>USD 108</strong>
+									<br>Millones MENOS que
+									en 2018</div>
+
+								<div class="col-sm-3 col-md-4 col-lg-2  tarjeta-exportaciones">
+									<strong>↓-1,5%</strong><br>i.a.</div>
+
+							</div>
+
 							<div class="clear mb-5"></div>
 
 
-							<div id="posts" class="post-grid row grid-container gutter-30 has-init-isotope"	data-layout="fitRows">
+							<div id="posts" class="post-grid row grid-container gutter-30 has-init-isotope"
+								data-layout="fitRows">
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn">
@@ -2085,8 +2097,8 @@ El País – Página 18 (sección y página con minúscula).
 									<div class="counter counter-lined">↑<span data-from="0" data-to="5710"
 											data-refresh-interval="25" data-speed="2000" data-comma="true" data-sep=","
 											data-places="2">57,1</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
 									<h5><span>Complejo GANADERO</span></h5>
 									<p class="center"><strong>USD 309.769.344</strong>
 										Participación 4,3%</p>
@@ -2098,8 +2110,8 @@ El País – Página 18 (sección y página con minúscula).
 									<div class="counter counter-lined">↓<span data-from="0" data-to="-98"
 											data-refresh-interval="50" data-speed="2500" data-comma="true" data-sep=","
 											data-places="1">-9,8</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
 									<h5><span>Complejo PORCINO Y CAPRINO</span></h5>
 									<p class="center"><strong>USD 315.065.280</strong>
 										Participación 4,3%</p>
@@ -2111,8 +2123,8 @@ El País – Página 18 (sección y página con minúscula).
 									<div class="counter counter-lined">↑<span data-from="0" data-to="4070"
 											data-refresh-interval="50" data-speed="3000" data-comma="true" data-sep=","
 											data-places="2">40,7</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
 									<h5><span>Complejo AVÍCOLA</span></h5>
 									<p class="center"><strong>USD 431.617.632</strong>
 										Participación 6%</p>
@@ -2125,8 +2137,8 @@ El País – Página 18 (sección y página con minúscula).
 									<div class="counter counter-lined">↓<span data-from="0" data-to="-1460"
 											data-refresh-interval="50" data-speed="3500" data-comma="true" data-sep=","
 											data-places="2">-14,6</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
 									<h5><span>Complejo ACUÍCOLA</span></h5>
 									<p class="center"><strong>USD 264.472.744</strong>
 										Participación 3,7%</p>
@@ -2139,8 +2151,8 @@ El País – Página 18 (sección y página con minúscula).
 									<div class="counter counter-lined">↓<span data-from="0" data-to="-1690"
 											data-refresh-interval="50" data-speed="4000" data-comma="true" data-sep=","
 											data-places="2">-16,9</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
 									<h5><span>Complejo FRUTÍCOLA</span> (Manzanas, peras y membrillos)</h5>
 									<p class="center"><strong>USD 324.017.834</strong>
 										Participación 4,5%</p>
@@ -2152,179 +2164,179 @@ El País – Página 18 (sección y página con minúscula).
 									<div class="counter counter-lined">↑<span data-from="0" data-to="5690"
 											data-refresh-interval="50" data-speed="4500" data-comma="true" data-sep=","
 											data-places="2">56,9</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
 									<h5><span>Complejo FRUTÍCOLA</span><br> (F. Secos)</h5>
 									<p class="center"><strong>USD 27.249.688</strong>
 										Participación 0,4%</p>
 								</div>
 
-								<!-- clon-->
+								<!-- fila-->
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn">
 
 									<img src="imgs/iconos/iconos-07.png" width="100px">
-									<div class="counter counter-lined">↑<span data-from="0" data-to="5710"
+									<div class="counter counter-lined">↑<span data-from="0" data-to="2210"
 											data-refresh-interval="25" data-speed="2000" data-comma="true" data-sep=","
-											data-places="2">57,1</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo GANADERO</span></h5>
-									<p class="center"><strong>USD 309.769.344</strong>
-										Participación 4,3%</p>
+											data-places="2">22,1</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo FRUTÍCOLA</span><br>(Carozo)</h5>
+									<p class="center"><strong>USD 29.109.143</strong>
+										Participación 0,4%</p>
 								</div>
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="200">
 
 									<img src="imgs/iconos/iconos-08.png" width="100px">
-									<div class="counter counter-lined">↓<span data-from="0" data-to="-98"
+									<div class="counter counter-lined">↓<span data-from="0" data-to="-1670"
 											data-refresh-interval="50" data-speed="2500" data-comma="true" data-sep=","
-											data-places="1">-9,8</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo PORCINO Y CAPRINO</span></h5>
-									<p class="center"><strong>USD 315.065.280</strong>
-										Participación 4,3%</p>
+											data-places="2">-16,7</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo FRUTÍCOLA </span><br>(Frutas finas)</h5>
+									<p class="center"><strong>USD 79.554.944</strong>
+										Participación 1,1%</p>
 								</div>
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="400">
 
 									<img src="imgs/iconos/iconos-09.png" width="100px">
-									<div class="counter counter-lined">↑<span data-from="0" data-to="4070"
+									<div class="counter counter-lined">↓<span data-from="0" data-to="-2430"
 											data-refresh-interval="50" data-speed="3000" data-comma="true" data-sep=","
-											data-places="2">40,7</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo AVÍCOLA</span></h5>
-									<p class="center"><strong>USD 431.617.632</strong>
-										Participación 6%</p>
+											data-places="2">-24,3</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo FRUTÍCOLA</span><br>(Frutas tropicales)</h5>
+									<p class="center"><strong>USD 44.766.180</strong>
+										Participación 0,6%</p>
 								</div>
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="600">
 
 									<img src="imgs/iconos/iconos-10.png" width="100px">
-									<div class="counter counter-lined">↓<span data-from="0" data-to="-1460"
+									<div class="counter counter-lined">↓<span data-from="0" data-to="-1710"
 											data-refresh-interval="50" data-speed="3500" data-comma="true" data-sep=","
-											data-places="2">-14,6</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo ACUÍCOLA</span></h5>
-									<p class="center"><strong>USD 264.472.744</strong>
-										Participación 3,7%</p>
+											data-places="2">-17,1</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo CITRÍCOLA</span></h5>
+									<p class="center"><strong>USD 829.473.628</strong>
+										Participación 11,4%</p>
 								</div>
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="800">
 
 									<img src="imgs/iconos/iconos-11.png" width="100px">
-									<div class="counter counter-lined">↓<span data-from="0" data-to="-1690"
+									<div class="counter counter-lined">↑<span data-from="0" data-to="42"
 											data-refresh-interval="50" data-speed="4000" data-comma="true" data-sep=","
-											data-places="2">-16,9</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo FRUTÍCOLA</span> (Manzanas, peras y membrillos)</h5>
-									<p class="center"><strong>USD 324.017.834</strong>
-										Participación 4,5%</p>
+											data-places="1">4,2</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo HORTÍCOLA</span></h5>
+									<p class="center"><strong>USD 169.542.290</strong>
+										Participación 2,3%</p>
 								</div>
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="1000">
 
 									<img src="imgs/iconos/iconos-12.png" width="100px">
-									<div class="counter counter-lined">↑<span data-from="0" data-to="5690"
+									<div class="counter counter-lined">↑<span data-from="0" data-to="3030"
 											data-refresh-interval="50" data-speed="4500" data-comma="true" data-sep=","
-											data-places="2">56,9</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo FRUTÍCOLA</span><br> (F. Secos)</h5>
-									<p class="center"><strong>USD 27.249.688</strong>
-										Participación 0,4%</p>
+											data-places="2">30,3</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo PAPERO</span></h5>
+									<p class="center"><strong>USD 219.353.873</strong>
+										Participación 3%</p>
 								</div>
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn">
 
 									<img src="imgs/iconos/iconos-13.png" width="100px">
-									<div class="counter counter-lined">↑<span data-from="0" data-to="5710"
+									<div class="counter counter-lined">↓<span data-from="0" data-to="-77"
 											data-refresh-interval="25" data-speed="2000" data-comma="true" data-sep=","
-											data-places="2">57,1</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo GANADERO</span></h5>
-									<p class="center"><strong>USD 309.769.344</strong>
-										Participación 4,3%</p>
+											data-places="1">-7,7</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo OLIVÍCOLA</span></h5>
+									<p class="center"><strong>USD 149.805.533</strong>
+										Participación 2,1%</p>
 								</div>
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="200">
 
 									<img src="imgs/iconos/iconos-14.png" width="100px">
-									<div class="counter counter-lined">↓<span data-from="0" data-to="-98"
+									<div class="counter counter-lined">↓<span data-from="0" data-to="-57"
 											data-refresh-interval="50" data-speed="2500" data-comma="true" data-sep=","
-											data-places="1">-9,8</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo PORCINO Y CAPRINO</span></h5>
-									<p class="center"><strong>USD 315.065.280</strong>
-										Participación 4,3%</p>
+											data-places="1">-5,7</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo VITIVINÍCOLA</span></h5>
+									<p class="center"><strong>USD 1.247.756.830</strong>
+										Participación 17,2%</p>
 								</div>
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="400">
 
 									<img src="imgs/iconos/iconos-15.png" width="100px">
-									<div class="counter counter-lined">↑<span data-from="0" data-to="4070"
+									<div class="counter counter-lined">↑<span data-from="0" data-to="28"
 											data-refresh-interval="50" data-speed="3000" data-comma="true" data-sep=","
-											data-places="2">40,7</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo AVÍCOLA</span></h5>
-									<p class="center"><strong>USD 431.617.632</strong>
-										Participación 6%</p>
+											data-places="1">2,8</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo LEGUMBRERO</span></h5>
+									<p class="center"><strong>USD 452.941.183</strong>
+										Participación 6,3%</p>
 								</div>
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="600">
 
 									<img src="imgs/iconos/iconos-16.png" width="100px">
-									<div class="counter counter-lined">↓<span data-from="0" data-to="-1460"
+									<div class="counter counter-lined">↑<span data-from="0" data-to="1560"
 											data-refresh-interval="50" data-speed="3500" data-comma="true" data-sep=","
-											data-places="2">-14,6</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo ACUÍCOLA</span></h5>
-									<p class="center"><strong>USD 264.472.744</strong>
-										Participación 3,7%</p>
+											data-places="2">15,6</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo MANISERO</span></h5>
+									<p class="center"><strong>USD 860.717.333</strong>
+										Participación 11,9%</p>
 								</div>
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="800">
 
 									<img src="imgs/iconos/iconos-17.png" width="100px">
-									<div class="counter counter-lined">↓<span data-from="0" data-to="-1690"
+									<div class="counter counter-lined">↑<span data-from="0" data-to="5210"
 											data-refresh-interval="50" data-speed="4000" data-comma="true" data-sep=","
-											data-places="2">-16,9</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo FRUTÍCOLA</span> (Manzanas, peras y membrillos)</h5>
-									<p class="center"><strong>USD 324.017.834</strong>
-										Participación 4,5%</p>
+											data-places="2">52,1</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo AZUCARERO</span></h5>
+									<p class="center"><strong>USD 94.679.036</strong>
+										Participación 1,3%</p>
 								</div>
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="1000">
 
 									<img src="imgs/iconos/iconos-18.png" width="100px">
-									<div class="counter counter-lined">↑<span data-from="0" data-to="5690"
+									<div class="counter counter-lined">↓<span data-from="0" data-to="-1640"
 											data-refresh-interval="50" data-speed="4500" data-comma="true" data-sep=","
-											data-places="2">56,9</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo FRUTÍCOLA</span><br> (F. Secos)</h5>
-									<p class="center"><strong>USD 27.249.688</strong>
-										Participación 0,4%</p>
+											data-places="2">-16,4</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo APÍCOLA</span></h5>
+									<p class="center"><strong>USD 146.447.151</strong>
+										Participación 2%</p>
 								</div>
 
 
@@ -2332,83 +2344,83 @@ El País – Página 18 (sección y página con minúscula).
 									data-animate="bounceIn">
 
 									<img src="imgs/iconos/iconos-19.png" width="100px">
-									<div class="counter counter-lined">↑<span data-from="0" data-to="5710"
+									<div class="counter counter-lined">↓<span data-from="0" data-to="-24"
 											data-refresh-interval="25" data-speed="2000" data-comma="true" data-sep=","
-											data-places="2">57,1</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo GANADERO</span></h5>
-									<p class="center"><strong>USD 309.769.344</strong>
-										Participación 4,3%</p>
+											data-places="1">-2,4</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo ARROCERO</span></h5>
+									<p class="center"><strong>USD 159.221.256</strong>
+										Participación 2,2%</p>
 								</div>
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="200">
 
 									<img src="imgs/iconos/iconos-20.png" width="100px">
-									<div class="counter counter-lined">↓<span data-from="0" data-to="-98"
+									<div class="counter counter-lined">↓<span data-from="0" data-to="-2700"
 											data-refresh-interval="50" data-speed="2500" data-comma="true" data-sep=","
-											data-places="1">-9,8</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo PORCINO Y CAPRINO</span></h5>
-									<p class="center"><strong>USD 315.065.280</strong>
-										Participación 4,3%</p>
+											data-places="2">-27,0</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo ALGODONERO</span></h5>
+									<p class="center"><strong>USD 117.981.943</strong>
+										Participación 1,6%</p>
 								</div>
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="400">
 
 									<img src="imgs/iconos/iconos-21.png" width="100px">
-									<div class="counter counter-lined">↑<span data-from="0" data-to="4070"
+									<div class="counter counter-lined">↓<span data-from="0" data-to="-55"
 											data-refresh-interval="50" data-speed="3000" data-comma="true" data-sep=","
-											data-places="2">40,7</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo AVÍCOLA</span></h5>
-									<p class="center"><strong>USD 431.617.632</strong>
-										Participación 6%</p>
+											data-places="1">-5,5</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo TEALERO</span></h5>
+									<p class="center"><strong>USD 89.238.298</strong>
+										Participación 1,3%</p>
 								</div>
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="600">
 
 									<img src="imgs/iconos/iconos-22.png" width="100px">
-									<div class="counter counter-lined">↓<span data-from="0" data-to="-1460"
+									<div class="counter counter-lined">↓<span data-from="0" data-to="-1500"
 											data-refresh-interval="50" data-speed="3500" data-comma="true" data-sep=","
-											data-places="2">-14,6</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo ACUÍCOLA</span></h5>
-									<p class="center"><strong>USD 264.472.744</strong>
-										Participación 3,7%</p>
+											data-places="2">-15,0</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo YERBATERO</span></h5>
+									<p class="center"><strong>USD 80.759.324</strong>
+										Participación 1,1%</p>
 								</div>
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="800">
 
 									<img src="imgs/iconos/iconos-23.png" width="100px">
-									<div class="counter counter-lined">↓<span data-from="0" data-to="-1690"
+									<div class="counter counter-lined">↓<span data-from="0" data-to="-1750"
 											data-refresh-interval="50" data-speed="4000" data-comma="true" data-sep=","
-											data-places="2">-16,9</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo FRUTÍCOLA</span> (Manzanas, peras y membrillos)</h5>
-									<p class="center"><strong>USD 324.017.834</strong>
-										Participación 4,5%</p>
+											data-places="2">-17,5</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo TABACALERO</span></h5>
+									<p class="center"><strong>USD 229.419.217</strong>
+										Participación 3,2%</p>
 								</div>
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="1000">
 
 									<img src="imgs/iconos/iconos-24.png" width="100px">
-									<div class="counter counter-lined">↑<span data-from="0" data-to="5690"
+									<div class="counter counter-lined">↓<span data-from="0" data-to="-2060"
 											data-refresh-interval="50" data-speed="4500" data-comma="true" data-sep=","
-											data-places="2">56,9</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo FRUTÍCOLA</span><br> (F. Secos)</h5>
-									<p class="center"><strong>USD 27.249.688</strong>
-										Participación 0,4%</p>
+											data-places="2">-20,6</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo ESPECIERO</span></h5>
+									<p class="center"><strong>USD 4.386.463</strong>
+										Participación 0,1%</p>
 								</div>
 
 
@@ -2416,110 +2428,124 @@ El País – Página 18 (sección y página con minúscula).
 									data-animate="bounceIn">
 
 									<img src="imgs/iconos/iconos-25.png" width="100px">
-									<div class="counter counter-lined">↑<span data-from="0" data-to="5710"
+									<div class="counter counter-lined">↓<span data-from="0" data-to="-1810"
 											data-refresh-interval="25" data-speed="2000" data-comma="true" data-sep=","
-											data-places="2">57,1</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo GANADERO</span></h5>
-									<p class="center"><strong>USD 309.769.344</strong>
-										Participación 4,3%</p>
+											data-places="2">-18,1</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo LÁCTEO</span></h5>
+									<p class="center"><strong>USD 34.546.978</strong>
+										Participación 0,5%</p>
 								</div>
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="200">
 
 									<img src="imgs/iconos/iconos-26.png" width="100px">
-									<div class="counter counter-lined">↓<span data-from="0" data-to="-98"
+									<div class="counter counter-lined">↑<span data-from="0" data-to="35"
 											data-refresh-interval="50" data-speed="2500" data-comma="true" data-sep=","
-											data-places="1">-9,8</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo PORCINO Y CAPRINO</span></h5>
-									<p class="center"><strong>USD 315.065.280</strong>
-										Participación 4,3%</p>
+											data-places="1">3,5</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo LÁCTEO PROCESADO</span></h5>
+									<p class="center"><strong>USD 24.967.126</strong>
+										Participación 0,3%</p>
 								</div>
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="400">
 
 									<img src="imgs/iconos/iconos-27.png" width="100px">
-									<div class="counter counter-lined">↑<span data-from="0" data-to="4070"
+									<div class="counter counter-lined">↑<span data-from="0" data-to="2120"
 											data-refresh-interval="50" data-speed="3000" data-comma="true" data-sep=","
-											data-places="2">40,7</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo AVÍCOLA</span></h5>
-									<p class="center"><strong>USD 431.617.632</strong>
-										Participación 6%</p>
+											data-places="2">21,2</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo GIRASOLERO</span></h5>
+									<p class="center"><strong>USD 18.678.617</strong>
+										Participación 0,3%</p>
 								</div>
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="600">
 
 									<img src="imgs/iconos/iconos-28.png" width="100px">
-									<div class="counter counter-lined">↓<span data-from="0" data-to="-1460"
+									<div class="counter counter-lined">↑<span data-from="0" data-to="4030"
 											data-refresh-interval="50" data-speed="3500" data-comma="true" data-sep=","
-											data-places="2">-14,6</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo ACUÍCOLA</span></h5>
-									<p class="center"><strong>USD 264.472.744</strong>
-										Participación 3,7%</p>
+											data-places="2">40,3</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo MAICERO</span></h5>
+									<p class="center"><strong>USD 119.305.889</strong>
+										Participación 1,6%</p>
 								</div>
 
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="800">
 
 									<img src="imgs/iconos/iconos-29.png" width="100px">
-									<div class="counter counter-lined">↓<span data-from="0" data-to="-1690"
+									<div class="counter counter-lined">↓<span data-from="0" data-to="-1360"
 											data-refresh-interval="50" data-speed="4000" data-comma="true" data-sep=","
-											data-places="2">-16,9</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-									<h5><span>Complejo FRUTÍCOLA</span> (Manzanas, peras y membrillos)</h5>
-									<p class="center"><strong>USD 324.017.834</strong>
-										Participación 4,5%</p>
+											data-places="2">-13,6</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+									<h5><span>Complejo LANERO</span></h5>
+									<p class="center"><strong>USD 230.081.161</strong>
+										Participación 3,2%</p>
 								</div>
 								<div class="entry col-sm-4 col-lg-2 text-center bounceIn animated p-0 m-0"
 									data-animate="bounceIn" data-delay="1000">
 
 									<img src="imgs/iconos/iconos-30.png" width="100px">
-									<div class="counter counter-lined">↑<span data-from="0" data-to="5690"
+									<div class="counter counter-lined">↑<span data-from="0" data-to="51"
 											data-refresh-interval="50" data-speed="4500" data-comma="true" data-sep=","
-											data-places="2">56,9</span>%
-											<div class="exportaciones-ia">i.a.</div>
-										</div>
-											
-									<h5><span>Complejo FRUTÍCOLA</span><br> (F. Secos)</h5>
-									<p class="center"><strong>USD 27.249.688</strong>
-										Participación 0,4%</p>
+											data-places="1">5,1</span>%
+										<div class="exportaciones-ia">i.a.</div>
+									</div>
+
+									<h5><span>Complejo FORESTO-INDUSTRIAL</span></h5>
+									<p class="center"><strong>USD 139.531.209</strong>
+										Participación 1,9%</p>
 								</div>
 
 
 								<div class="row center container">
-									
-									<div class="col-2 tarjeta-importaciones"><strong>IMPORTACIONES</strong> <br>Economías Regionales</div>
-								
-								<div class="col-2 tarjeta-importaciones"><strong>USD 870</strong> <br>Millones de Dólares Importados </div>
-								
-								<div class="col-2 tarjeta-importaciones"><strong>USD 190</strong> <br>Millones MENOS que en 2018</div>
-								
-								<div class="col-2 tarjeta-importaciones"><strong>↓-17,9%</strong><br>i.a.</div>
-								
+
+									<div class="col-sm-3 col-md-4 col-lg-2 tarjeta-importaciones">
+										<strong>IMPORTACIONES</strong>
+										<br>Economías Regionales</div>
+
+									<div class="col-sm-3 col-md-4 col-lg-2 tarjeta-importaciones"><strong>USD
+											870</strong> <br>Millones de
+										Dólares Importados </div>
+
+									<div class="col-sm-3 col-md-4 col-lg-2 tarjeta-importaciones"><strong>USD
+											190</strong> <br>Millones MENOS
+										que en 2018</div>
+
+									<div class="col-sm-3 col-md-4 col-lg-2 tarjeta-importaciones">
+										<strong>↓-17,9%</strong><br>i.a.</div>
+
 								</div>
 
-								
+
 								<div class="row center container mt-4 mb-4">
-									
-									<div class="col-2 tarjeta-saldo"><strong>SALDO COMERCIAL</strong> <br>Economías Regionales</div>
-								
-								<div class="col-2 tarjeta-saldo"><strong>USD 6.374,4</strong> <br>Millones de Dólares </div>
-								
-								<div class="col-2 tarjeta-saldo"><strong>USD 82 más</strong> <br>SUPERÁVIT Comercial que en 2018</div>
-								
-								<div class="col-2 tarjeta-saldo"><strong>↑1,3%</strong><br>i.a.</div>
-								
+
+									<div class="col-sm-3 col-md-4 col-lg-2 tarjeta-saldo"><strong>SALDO
+											COMERCIAL</strong> <br>Economías
+										Regionales</div>
+
+									<div class="col-sm-3 col-md-4 col-lg-2 tarjeta-saldo"><strong>USD 6.374,4</strong>
+										<br>Millones de
+										Dólares </div>
+
+									<div class="col-sm-3 col-md-4 col-lg-2 tarjeta-saldo"><strong>USD 82 más</strong>
+										<br>SUPERÁVIT Comercial
+										que en 2018</div>
+
+									<div class="col-sm-3 col-md-4 col-lg-2 tarjeta-saldo"><strong>↑1,3%</strong><br>i.a.
+									</div>
+
 								</div>
 
 								<div class="col-12">Fuente: CAME en base a INDEC</div>
@@ -2537,11 +2563,11 @@ El País – Página 18 (sección y página con minúscula).
 
 					<div class="row align-items-stretch m-0 p-0">
 
-						<div class="col-md-3 m-0 p-0"
+						<div class="col-md-3 col-sm-12 m-0 p-0"
 							style="background: url('imgs/b/EduardoRodriguez.jpg');background-size: 60%;margin-top: 5%;background-attachment: fixed;overflow: hidden;background-position: -40% 50%;background-repeat: no-repeat;">
 						</div>
 
-						<div class="col-md-9 col-padding pt-0">
+						<div class="col-sm-12 col-md-9  pt-0">
 
 							<div>
 								<div class="heading-block">
@@ -2599,7 +2625,7 @@ El País – Página 18 (sección y página con minúscula).
 											imagínense todo lo que seríamos capaces de hacer si una política pública
 											hiciera foco en las Economías Regionales. <br>
 
-											
+
 										</p>
 										<p style="text-align: right;">Julio de 2020</p>
 
@@ -2778,101 +2804,7 @@ El País – Página 18 (sección y página con minúscula).
 
 	<!-- ADD-ONS JS FILES -->
 
-	<script src="js/chart.js"></script>
-	<script src="js/chart-utils.js"></script>
 
-	<script>
-
-		var config = {
-			type: 'doughnut',
-			data: {
-				datasets: [{
-					data: [
-						84,
-						11,
-					],
-					backgroundColor: [
-						window.chartColors.green,
-						window.chartColors.blue,
-					],
-					label: 'Dataset 1'
-				}],
-				labels: [
-					"Personas humanas",
-					"Personas jurídicas"
-				]
-			},
-			options: {
-				responsive: true,
-				legend: {
-					display: false,
-					position: 'top',
-				},
-				title: {
-					display: false,
-					text: 'Doughnut Chart'
-				},
-				animation: {
-					animateScale: true,
-					animateRotate: true
-				}
-			}
-		};
-
-
-		var config_cultivos = {
-			type: 'doughnut',
-			data: {
-				datasets: [{
-					data: [
-						69,
-						11,
-						11,
-						9,
-					],
-					backgroundColor: [
-						window.chartColors.green,
-						window.chartColors.blue,
-						window.chartColors.orange,
-						window.chartColors.yellow,
-					],
-					label: 'Dataset 2'
-				}],
-				labels: [
-					"Cultivos anuales",
-					"Forrajes anuales",
-					"Forrajeras",
-					"Otros cultivos"
-				]
-			},
-			options: {
-				responsive: true,
-				legend: {
-					display: false,
-					position: 'top',
-				},
-				title: {
-					display: false,
-					text: 'Doughnut Chart'
-				},
-				animation: {
-					animateScale: true,
-					animateRotate: true
-				}
-			}
-		};
-
-
-		window.onload = function () {
-			var ctx = document.getElementById("chart-doughnut").getContext("2d");
-			window.myDoughnut = new Chart(ctx, config);
-
-			var ctx2 = document.getElementById("chart-cultivos").getContext("2d");
-			window.myDoughnut2 = new Chart(ctx2, config_cultivos);
-		};
-
-
-	</script>
 
 </body>
 

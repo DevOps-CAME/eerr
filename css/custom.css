@@ -5,8 +5,7 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
-
-.titulo_seccion{
+.titulo_seccion {
     font-size: 1.8em;
     color: #5fd0ba;
     border-bottom: #5fd0ba 5px solid;
@@ -16,16 +15,16 @@
     background-color: #5fd0ba38;
 }
 
-.prologo_editorial{
+.prologo_editorial {
     position: absolute;
     right: 0;
 }
 
-p{
+p {
     text-align: justify;
 }
 
-.prensa_grid{
+.prensa_grid {
     background-color: #e8e8e8;
     border-radius: 20px 20px 0px 0px;
     border: 2px solid #ccc;
@@ -33,30 +32,37 @@ p{
     max-height: 890px;
 }
 
-.portfolio-desc > span {
+.portfolio-desc>span {
     font-size: 13px;
 }
 
-.menu-link{
-    font-size: 1rem;
+.menu-link {
+    font-size: 0.9rem;
 }
-.entry-meta{
+
+.menu-item{
+    font-size: 0.9rem;
+}
+
+.entry-meta {
     overflow: visible;
     margin: 0px;
 }
 
-.entry-meta alignleft{
+.entry-meta alignleft {
     margin: 0px;
 }
 
-img.alignleft, div.alignleft {
+img.alignleft,
+div.alignleft {
     margin: 5px 20px 5px 0;
 }
-.entry-image{
+
+.entry-image {
     margin-bottom: 5px;
 }
 
-.epigrafe{
+.epigrafe {
     font-size: 0.9rem;
     font-weight: 400;
     line-height: 1.5;
@@ -67,12 +73,13 @@ img.alignleft, div.alignleft {
     display: inline-block;
 }
 
-.flip-card-front::after, .flip-card-back::after {  
+.flip-card-front::after,
+.flip-card-back::after {
     opacity: 0.3;
     background-color: #828181;
 }
 
-.tarjeta-exportaciones{
+.tarjeta-exportaciones {
     background-color: #dcf5f0;
     border: solid 1px #1abc9c;
     border-radius: 0.4em;
@@ -80,7 +87,7 @@ img.alignleft, div.alignleft {
     margin-right: 0.5rem;
 }
 
-.tarjeta-importaciones{
+.tarjeta-importaciones {
     background-color: #cbf3eb;
     border: solid 1px #179c82;
     border-radius: 0.4em;
@@ -96,10 +103,40 @@ img.alignleft, div.alignleft {
     margin-right: 0.5rem;
 }
 
-.exportaciones-ia{
+.exportaciones-ia {
     font-size: 0.9rem;
     line-height: 0.4rem;
 }
+
 .heading-block h3 {
     font-size: 1.55rem;
+}
+
+.mes-izk {
+    float: left;
+    color: #5fd0ba;
+    font-weight: 700;
+    border-left: 2px solid #5fd0ba;
+    padding-right: 5px;
+    background-color: #5fd0ba38;
+    padding-left: 5px;
+    text-transform: uppercase;
+    font-size: 1.15rem;
+    margin-bottom: 0.25rem;
+
+}
+
+.mes-der {
+    text-align: right;
+    float: right;
+    color: #5fd0ba;
+    font-weight: 700;
+    border-right: 2px solid #5fd0ba;
+    padding-right: 5px;
+    background-color: #5fd0ba38;
+    padding-left: 4px;
+    text-transform: uppercase;
+    font-size: 1.15rem;
+    margin-bottom: 0.25rem;
+
 }

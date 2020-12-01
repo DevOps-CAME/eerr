@@ -79,6 +79,7 @@ div.alignleft {
     background-color: #828181;
 }
 
+
 .tarjeta-exportaciones {
     background-color: #dcf5f0;
     border: solid 1px #1abc9c;
@@ -139,4 +140,7 @@ div.alignleft {
     font-size: 1.15rem;
     margin-bottom: 0.25rem;
 
+}
+.counter{
+    font-size: 2.1em;
 }

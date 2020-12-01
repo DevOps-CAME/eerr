@@ -12,11 +12,11 @@
     padding: 1% 5% 0.5% 1%;
     text-transform: uppercase;
     float: right;
-    background-color: #5fd0ba38;
+    background-color: #dcf5f0;
 }
 
 .prologo_editorial {
-    position: absolute;
+    position: relative;
     right: 0;
 }
 
@@ -119,7 +119,7 @@ div.alignleft {
     font-weight: 700;
     border-left: 2px solid #5fd0ba;
     padding-right: 5px;
-    background-color: #5fd0ba38;
+    background-color: #dcf5f0;
     padding-left: 5px;
     text-transform: uppercase;
     font-size: 1.15rem;
@@ -134,7 +134,7 @@ div.alignleft {
     font-weight: 700;
     border-right: 2px solid #5fd0ba;
     padding-right: 5px;
-    background-color: #5fd0ba38;
+    background-color:#dcf5f0;
     padding-left: 4px;
     text-transform: uppercase;
     font-size: 1.15rem;
@@ -144,3 +144,15 @@ div.alignleft {
 .counter{
     font-size: 2.1em;
 }
+
+
+
+
+
+
+
+@media (max-width:629px) {
+    .hideonmobile {
+      display: none;
+    }
+  }

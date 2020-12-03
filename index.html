@@ -168,6 +168,7 @@
 
 		<!-- Slider
 		============================================= -->
+		<div class="hideonmobile">
 		<section id="slider" class="slider-element min-vh-100 include-header" 
 		style="margin-top: -110px;
 		background: url(imgs/TAPA-05.png), url(imgs/TAPA-04.png);
@@ -196,7 +197,13 @@
 					data-400="margin-top: 150px;" style="width: 70rem;">
 
 			</div>
-		</section><!-- #Slider End -->
+		</section>
+		</div>
+
+		<div class="showonmobile" style="display: none;">
+			<img src="imgs/tapa_cel.jpg" alt="RESEÑA 2019 - ECONOMÍAS REGIONALES">
+		</div>
+		<!-- #Slider End -->
 
 		<!-- Content
 		============================================= -->
@@ -2137,7 +2144,24 @@ El País – Página 18 (sección y página con minúscula).
 						bottom: -5em;
 						height: 12em;
 					">
-			
+				<script>
+				const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+				function myMove() {
+				  var elem = document.getElementById("tractor");   
+				  var pos = -450;
+				  var id = setInterval(frame, 10);
+				  function frame() {
+					if (pos == vw) {
+					  clearInterval(id);
+					  myMove();
+					} else {
+					  pos++; 
+					  elem.style.left = pos + 'px'; 
+					}
+				  }
+				}
+				myMove();
+				</script>
 					</div>
 
 					<div class="section mb-0">

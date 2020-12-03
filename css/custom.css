@@ -147,14 +147,14 @@ div.alignleft {
     font-size: 2.1em;
 }
 
-
-
-
-
-
-
 @media (max-width:629px) {
     .hideonmobile {
       display: none;
+    }
+  }
+
+  @media (max-width:629px) {
+    .showonmobile {
+      display: block !important;
     }
   }
